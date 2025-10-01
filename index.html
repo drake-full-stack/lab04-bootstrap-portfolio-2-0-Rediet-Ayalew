@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,44 +29,68 @@
 
 
     <!-- Hero/Intro Section -->
-    <section id="hero">
-        <h1>Hi, I'm Rediet Ayalew</h1>
-        <p>A web developer learning full-stack development at Drake University.</p>
+    <section id="hero" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                <h1>Hi, I'm Rediet Ayalew</h1>
+                <p>A web developer learning full-stack development at Drake University.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="Tech.jpg" alt="Rediet Ayalew" style="width:200px;height:200px;" class="img-fluid">
+                </div>
+            </div>
+        </div>
     </section>
-
-    <img src="Tech.jpg" alt="Rediet Ayalew" style="width:200px;height:200px;">
 
     <!-- About Section -->
     <section id="about">
-        <h2 >About Me</h2>
+        <h2 class = "text-center">About Me</h2>
         <p>At Drake University, I'm immersed in computer science, artificial intelligence and data analytics. My academic pursuits are complemented by active participation in a machine learning research team, solidifying my commitment to advancing AI technology through rigorous study and practical application. I am on track to graduate one year early, with an anticipated completion date in December 2025.</p>
         <p>I would love to become a backend web developer with the skills to build accessible, user-friendly and scalable websites.</p>
     </section>
 
     <!-- Projects Section -->
     <section id="projects">
-        <h2>My Projects</h2>
-        
+        <h2 class = "text-center">My Projects</h2>
+        <div class="row g-4">
+
+    <!-- Repeat for more projects -->
         <div class="project">
-            <h3>Wordle Game</h3>
-            <p>Interactive word-guessing game built with HTML, CSS, and JavaScript. Features keyboard input and color-coded feedback.</p>
-            <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
-            <a href="https://github.com/drake-full-stack/lab03-wordle-game-logic-javascript-Rediet-Ayalew">View Project</a> | <a href="https://github.com/drake-full-stack/lab03-wordle-game-logic-javascript-Rediet-Ayalew">View Code</a>
+            <div class="row g-4">
+                <div class="text-center">
+                    <h3>Wordle Game</h3>
+                    <p>Interactive word-guessing game built with HTML, CSS, and JavaScript. Features keyboard input and color-coded feedback.</p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                    <a href="https://github.com/drake-full-stack/lab03-wordle-game-logic-javascript-Rediet-Ayalew">View Code</a>
+                    <img src="Wordle.png" class="img-fluid" style="width:400px;height:300px;">
+                </div>
+            </div>
         </div>
 
         <div class="project">
-            <h3>Resturant Website</h3>
-            <p>This project is a web-based application designed to simplify restaurant discovery and meal planning by leveraging the Yelp API. </p>
-            <p><strong>Technologies:</strong> HTML, CSS, Flask, python, SQL, JS</p>
-            <a href="https://github.com/Rediet-Ayalew/Are-you-Hungry-">View Project</a> | <a href="https://github.com/Rediet-Ayalew/Are-you-Hungry-">View Code</a>
+            <div class="row g-4">
+                <div class="text-center">
+                    <h3>Portfolio</h3>
+                    <p>Personal portfolio showcasing web development projects and skills. Built with responsive design principles. </p>
+                    <p><strong>Technologies:</strong> HTML, CSS, Bootstrap</p>
+                    <a href="https://github.com/Rediet-Ayalew/Are-you-Hungry-">View Code</a>
+                <img src="portfolio .png" class="img-fluid" style="width:400px;height:300px;">
+                </div>
+            </div>
         </div>
 
         <div class="project">
-            <h3>Future Project</h3>
-            <p>Exciting new project coming soon! Check back for updates.</p>
-            <p><strong>Technologies:</strong> TBD</p>
-            <a href="#">Coming Soon</a>
-        </div>   
+            <div class="row g-4">
+                <div class="text-center">
+                    <h3 >Future Project</h3>
+                    <p >Exciting new project coming soon! Check back for updates.</p>
+                    <p ><strong>Technologies:</strong>TBD</p>
+                    <a href="#" > Coming Soon</a>
+                    <img src="Future.jpeg" class="img-fluid" style="width:400px;height:300px;">
+                </div>
+            </div>
+        </div>  
     </section>
 
     <!-- Contact Section -->
