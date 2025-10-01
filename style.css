@@ -1,4 +1,10 @@
 /* Basic Reset and Typography */
+:root {
+    --bs-primary: #b89a60;
+    --bs-secondary: #faebeb;
+    --bs-success: #f0e2ea;
+
+}
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +15,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
+    background-color: var(--bs-secondary);
 }
 /*Center img*/
 img{
@@ -20,7 +27,7 @@ img{
 
 /* Navigation */
 nav {
-    background-color: #333;
+    background-color: var(--bs-primary);
     padding: 1rem 0;
 }
 
@@ -32,13 +39,13 @@ nav ul {
 }
 
 nav a {
-    color: white;
+    color: var(--bs-primary);
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: #747474;
     border-radius: 4px;
 }
 
@@ -52,7 +59,7 @@ section {
 /* Hero Section */
 #hero {
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: var(--bs-success);
 }
 
 #hero h1 {
@@ -133,4 +140,14 @@ footer {
     #hero h1 {
         font-size: 2rem;
     }
+}
+/*styling the icons*/
+.bi {
+  font-size: 20px;
+}
+
+/* Custom colors and hover effects */
+.social-link:hover i {
+    color: var(--bs-primary);
+    transform: scale(1.2);
 }
